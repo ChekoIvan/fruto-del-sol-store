@@ -26,4 +26,7 @@ Proyecto de tienda en línea para Fruto del Sol
     >rails g spree_gateway:install
 
         Hasta este punto, el sistema tiene la estructura por defecto, se agregaron gran catidad de archivos en los assets y en las migraciones.
+1. Para traerse al directorio actual las views del Panel de Administrador, las copiamos con su generador
+    >rails g spree:backend:copy_views
+        Tiene conflicto con 5 archivos de vistas para paginación, porque ya existen. De ahí se copian 
     
