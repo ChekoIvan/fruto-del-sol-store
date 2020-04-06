@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Proyecto de tienda en línea para Fruto del Sol
 
-Things you may want to cover:
+* Ruby: **2.6.5**
 
-* Ruby version
+* Rails: **6.0.2**
 
-* System dependencies
+## Pasos a seguir.
 
-* Configuration
+1. Tener una instalación de Rails funcionando, con la versión indicada
 
-* Database creation
+1. Crear la base de datos
+    > rake db:create
+1. Añadir las siguientes gemas al Gemfile
+    >gem 'spree', '~> 4.1'
+    >gem 'spree_auth_devise', '~> 4.1'
+    >gem 'spree_gateway', '~> 3.7'
+1. Instalarlas gemas desde bundle
+    >bundle install
+1. Correr la configuración de Spree para controladores y migraciones ( sin los datos de prueba)
+    >rails g spree:install --user_class=Spree::User --sample=false
+    >
+    >rails g spree:auth:install
+    >
+    >rails g spree_gateway:install
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+        Hasta este punto, el sistema tiene la estructura por defecto, se agregaron gran catidad de archivos en los assets y en las migraciones.
+    
