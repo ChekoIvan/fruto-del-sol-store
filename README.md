@@ -29,4 +29,10 @@ Proyecto de tienda en línea para Fruto del Sol
 1. Para traerse al directorio actual las views del Panel de Administrador, las copiamos con su generador
     >rails g spree:backend:copy_views
         Tiene conflicto con 5 archivos de vistas para paginación, porque ya existen. De ahí se copian 
+1. Cambio de lenguaje al backend, Spree tiene su opción multilenguaje en otro repositorio con una gema para automatizar el cambio. En el Gemfile se agrega:
+    >gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+1. Se instala
+    >bundle install
+1. Se copian y corren las migraciones
+    >bundle exec rails g spree_i18n:install
     
