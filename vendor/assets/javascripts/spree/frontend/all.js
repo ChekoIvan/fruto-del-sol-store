@@ -8,6 +8,7 @@
 //= require jquery_ujs
 //= require accounting.min
 //= require spree/frontend
-
-//= require_tree .
+//= require spree/frontend/trx_addons.js
+//= require spree/frontend/__scripts.js
+//= require spree/frontend/custom.js
 //= require spree/frontend/spree_i18n

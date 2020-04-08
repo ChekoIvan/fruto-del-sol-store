@@ -6,5 +6,55 @@
  *= require spree/frontend
 
  *= require_self
- *= require_tree .
+ *= require spree/frontend/laonwine/trx_addons_icons-embedded.css
+ *= requite spree/frontend/laonwine/trx_addons.css
+ *= require spree/frontend/laonwine/woocommerce-layout.css
+ *= require spree/frontend/laonwine/woocommerce-smallscreen.css
+ *= require spree/frontend/laonwine/woocommerce.css
+ *= require spree/frontend/fontello/css/fontello-embedded.css
+ *= require spree/frontend/laonwine/style.min.css
+ *= require spree/frontend/laonwine/animation.css
+ *= require spree/frontend/laonwine/__colors.css
+ *= require spree/frontend/laonwine/__styles.css
+ *= require spree/frontend/laonwine/responsive.min.css
 */
+
+.logo {
+    height: 100%;
+}
+.logo a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height: 95%;
+    align-self: center;
+}
+@media(max-width:479px) {
+    .logo img {
+        max-height: 2em;
+    }
+}
+.main-nav-bar.menu_main_nav > *{
+    letter-spacing: 2px;
+}
+.top_panel_fixed .logo{
+    display: block !important
+}
+li.navbar a{
+    text-decoration: none;
+}
+#quantity.quantity-select-value,
+.scheme_default input.shopping-cart-item-quantity-input[type="number"]{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+.scheme_default .shopping-cart-coupon-code input[type="text"]{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+}
+.scheme_default .shopping-cart-coupon-code .form-control.error {
+    border: 1px solid #f53737;
+}
