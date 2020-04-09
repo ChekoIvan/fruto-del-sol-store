@@ -2224,9 +2224,9 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 110%
 }
 
-.sc_form_modern form:not(class*="sc_input_hover_") textarea {
+/* .sc_form_modern form:not(class*="sc_input_hover_") textarea {
     min-height: 11em
-}
+} */
 
 .sc_input_hover_accent .sc_form_field_hover:before {
     height: 3em
