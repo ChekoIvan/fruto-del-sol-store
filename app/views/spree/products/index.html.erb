@@ -13,24 +13,12 @@
         <div class="plp-results-text text-uppercase mx-md-auto py-md-5">
           <%= "#{@products.total_count} #{Spree.t('plp.results_for')} '#{params[:keywords].upcase}'" %>
         </div>
-      </div>
-    <% elsif not @taxon %>
-      <div id="no-taxon-banner">
-        <div class="container">
-          <%= lazy_image(
-            src: asset_path('homepage/products.jpg'),
-            alt: 'products-banner',
-            width: 1110,
-            height: 300,
-            class: 'w-100 d-none d-md-block'
-          ) %>
-        </div>
-      </div>
+      </div>     
     <% end %>
 
     <%= render 'spree/products/filter_and_sort_mobile_buttons' %>
     <%= render 'spree/products/sort_desktop', permitted_params: permitted_params %>
-    <div class="container mb-3 d-md-flex">
+    <div class="container mb-3 d-md-flex woocommerce woocommerce-page">
       <%= render 'spree/products/filters_desktop', permitted_params: permitted_params %>
       <%= render 'spree/shared/products', products: @products %>
     </div>
