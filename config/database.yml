@@ -51,4 +51,4 @@ production:
   <<: *default
   database: frutodelsol_store_production
   username: root
-  password: <%= ENV['FRUTODELSOL_STORE_DATABASE_PASSWORD'] %>
+  password: F@wer23r
