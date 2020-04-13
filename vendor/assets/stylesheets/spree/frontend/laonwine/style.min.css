@@ -33,7 +33,7 @@
 -------------------------------------------------------------- */
 
 /* 1. Reset tags
--------------------------------------------------------------- */
+-------------------------------------------------------------- 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,input,textarea,button,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,address,section,video,audio {
   font-family: inherit;
   font-size: 100%;
@@ -49,7 +49,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html,body {
   margin: 0;
-  /* padding: 0; */
+  padding: 0;
   width: 100%;
   line-height: 136.8421%
 }
@@ -65,7 +65,7 @@ html {
 }
 
 /* 2. Default tag's settings
--------------------------------------------------------------- */
+-------------------------------------------------------------- 
 html,body {
   font-size: 19px
 }
@@ -442,7 +442,7 @@ iframe,video,embed {
   margin: 0
 }
 /* 3. Form fields settings
--------------------------------------------------------------- */
+-------------------------------------------------------------- 
 form {
   margin-bottom: 0
 }

@@ -27,8 +27,8 @@ es:
       go_to_previous_menu: "Menú anterior"
       close_menu: "Cerrar menú"
       show_menu: ""
-      show_user_menu: ""
-      show_search: ""
+      show_user_menu: "Opciones de usuario"
+      show_search: "Buscar"
       log_out: "Cerrar sesión"
       my_account: "Mi cuenta"
     plp:

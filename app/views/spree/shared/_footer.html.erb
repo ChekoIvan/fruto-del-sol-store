@@ -1,5 +1,5 @@
 <%# <% cache spree_nav_cache_key('footer') do %> 
-  <footer class="site_footer_wrap scheme_dark">
+  <footer id="footer" class="site_footer_wrap scheme_dark footer-spree">
 		<div class="logo_footer_wrap scheme_dark">
 			<div class="logo_footer_wrap_inner">
 				<%= link_to image_tag("logos/logo33.png"), root_path %>
@@ -9,18 +9,17 @@
 			<div class="socials_footer_wrap_inner">
 				<span class="social_item"><a href="https://www.instagram.com/frutodls/" target="_blank" class="social_icons social_instagram"><span class="trx_addons_icon-instagram"></span></a></span>
 				<span class="social_item"><a href="https://www.facebook.com/MezcalFrutodelSol" target="_blank" class="social_icons social_facebook"><span class="trx_addons_icon-facebook"></span></a></span>
-				
 			</div>
 		</div>
 		<div class="menu_footer_wrap scheme_dark">
 			<div class="menu_footer_wrap_inner">
 				<nav class="menu_footer_nav_area">
 					<ul id="menu_footer" class="menu_footer_nav">
-						<li class="menu-item menu-item-143"><a href="#"><span>NUESTRA TRADICIÓN</span></a></li>
-						<li class="menu-item menu-item-675"><a href="nuestro-fruto.html"><span>NUESTRO FRUTO</span></a></li>
-						<li class="menu-item menu-item-677"><a href="proceso.html"><span>PROCESO</span></a></li>
-						<li class="menu-item menu-item-147"><a href="encuentra-tu-fruto.html"><span>ENCUENTRA TU FRUTO</span></a></li>
-						<li class="menu-item menu-item-676"><a href="contacto.html"><span>CONTACTO</span></a></li>
+					<% spree_navigation_data.each do |root| %>
+    					<li class="menu-item wer menu-item">
+        					<%= link_to root[:title], root[:url], class: "" %>
+      					</li>
+    				<% end %>
 					</ul>
 				</nav>
 			</div>
