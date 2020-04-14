@@ -63,3 +63,13 @@ a:hover{
     color: #e39a31;
     text-decoration: none;
 }
+.loan-list .loan-product{
+    border: 1px solid #ddd;
+}
+.loan-list .loan-product:hover{
+    border-color: #e39a31;
+}
+.loan-list .loan-product .product-component-name,
+.loan-list .loan-product .product-component-price{
+    text-align: center;
+}
