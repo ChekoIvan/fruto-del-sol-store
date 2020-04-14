@@ -36,3 +36,7 @@ Proyecto de tienda en línea para Fruto del Sol
 1. Se copian y corren las migraciones
     >bundle exec rails g spree_i18n:install
     
+1. Agregar Paypal
+    >gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+1. Sus migraciones
+    >

@@ -4,6 +4,8 @@ es:
     save: "Guardar dirección"
     successfully_created: "Dirección agregada exitosamente"
   spree:
+    continue_as_guest: "Continuar como visitante"
+    processing_credit_card: "Procesando tarjeta de cŕedito"
     availability: "Diponibilidad"
     all_rights_reserved: "Todos los derechos reservados"
     add_new_address: "Agregar nueva dirección"
@@ -29,7 +31,9 @@ es:
       show_menu: ""
       show_user_menu: "Opciones de usuario"
       show_search: "Buscar"
-      log_out: "Cerrar sesión"
+      log_out: "Cerrar Sesión"
+      log_in: "Iniciar Sesión"
+      sign_up: "Registrase"
       my_account: "Mi cuenta"
     plp:
       results_for: "Resultado(s) para"
