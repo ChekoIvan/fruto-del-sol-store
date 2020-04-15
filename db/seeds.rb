@@ -42,13 +42,13 @@ shipping_methods = [
     shipping_categories: [shipping_category]
   },
   {
-    name: 'UPS Two Day (MXN)',
+    name: 'FedEx 1 día (MXN)',
     zones: [mexico_zone],
     display_on: 'both',
     shipping_categories: [shipping_category]
   },
   {
-    name: 'UPS One Day (MXN)',
+    name: 'Estafeta 1 día (MXN)',
     zones: [mexico_zone],
     display_on: 'both',
     shipping_categories: [shipping_category]
