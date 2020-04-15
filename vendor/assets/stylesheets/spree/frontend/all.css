@@ -10,6 +10,7 @@
  *= requite spree/frontend/laonwine/trx_addons.css
  *= require spree/frontend/laonwine/style.min.css
  *= require spree/frontend/laonwine/__colors.css
+ *= require spree/frontend/spree_paypal_express
 */
 
 .logo {
