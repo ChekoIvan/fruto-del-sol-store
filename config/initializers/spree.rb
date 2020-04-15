@@ -16,6 +16,7 @@ Spree.config do |config|
   config.logo = 'logos/logo_h.png'
   config.admin_interface_logo = 'logos/logo33_h.png'
   config.admin_show_version = false
+  config.currency = 'MXN'
 end
 
 # Configure Spree Dependencies

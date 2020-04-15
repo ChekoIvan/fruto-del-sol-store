@@ -13,6 +13,7 @@ es:
     backordered_info: "Información pendiente"
     log_in: "Iniciar Sesión"
     log_in_to_continue: "Inicio de Sesión"
+    payment_type: "Seleccione el método de pago"
     email: "Correo electrónico"
     password: "Contraseña"
     forgot_password: "¿Olvidó su contraseña?"
