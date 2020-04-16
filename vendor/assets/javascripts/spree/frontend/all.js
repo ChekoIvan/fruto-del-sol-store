@@ -8,6 +8,5 @@
 //= require jquery_ujs
 //= require accounting.min
 //= require spree/frontend
-//= require spree/frontend/trx_addons.js
 //= require spree/frontend/spree_i18n
 //= require spree/frontend/spree_paypal_express
