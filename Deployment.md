@@ -51,15 +51,7 @@ rbenv rehash
 rails -v
 
 ###Instalamos nuestro gestor de base de datos 
-www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-centos-7
-
->sudo yum install mariadb-server mariadb-devel
-
->sudo systemctl start mariadb
-
->sudo systemctl status mariadb
-sudo systemctl enable mariadb
-sudo mysql_secure_installation
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7
 
 #### Instalamos las gema del gestor
 
