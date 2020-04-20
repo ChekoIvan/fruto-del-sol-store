@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/ChekoIvan/spree_mail_settings.git
+  revision: bab2f1a0ca95bb6149143038fe83f603948693c2
+  specs:
+    spree_mail_settings (3.3.0)
+      spree_auth_devise (>= 3.1.0, <= 4.1.4)
+      spree_backend (>= 3.1.0, <= 4.1.4)
+
+GIT
   remote: https://github.com/spree-contrib/better_spree_paypal_express.git
   revision: 49c579ac7eb968bba67b97126bd4473f709174ad
   specs:
@@ -448,6 +456,7 @@ DEPENDENCIES
   spree_auth_devise (~> 4.1)
   spree_gateway (~> 3.7)
   spree_i18n!
+  spree_mail_settings!
   spree_paypal_express!
   spring
   spring-watcher-listen (~> 2.0.0)

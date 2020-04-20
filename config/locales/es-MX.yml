@@ -711,6 +711,7 @@ es-MX:
     cart: Carrito
     categories: Categorías
     category: Categoría
+    change_your_password: Cambie su contraseña
     check_for_spree_alerts: Verificar alertas de Spree
     checkout: Pagar
     choose_a_customer: Elegir cliente
