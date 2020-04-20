@@ -62,10 +62,19 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "frutodelsol_store_production"
 
   config.action_mailer.perform_caching = false
-
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :user_name => Rails.application.credentials.action_mailer[:user_name],
+    :password => Rails.application.credentials.action_mailer[:password],
+    :address => 'smtp.gmail.com',
+    :domain => 'smtp.gmail.com',
+    :port => 587,
+    :enable_starttls_auto => true,
+    :authentication => 'plain'
+  }
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
-  # config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).

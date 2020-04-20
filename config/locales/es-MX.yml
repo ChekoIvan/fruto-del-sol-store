@@ -2,6 +2,7 @@ es-MX:
   date:
     formats:
       date_format_text: '%d/%m/%Y'
+      default: '%d/%m/%Y'
   activerecord:
     attributes:
       spree/product:
@@ -880,7 +881,7 @@ es-MX:
       available_locales: Traduciones Disponibles
       language: Idioma
       localization_settings: Ajustes de traducciones
-      this_file_language: Español
+      this_file_language: Español (MX)
       fields: campos
       only_incomplete: Sólo incompleta
       only_complete: Sólo completado
@@ -1036,9 +1037,11 @@ es-MX:
           sus registros
         order_summary: Resumen del pedido
         subject: Confirmación de pedido
-        thanks: Gracias por su negocio
+        thanks: Gracias por su compra
         subtotal: Subtotal
         total: Total
+      subtotal: Subtotal
+      total: Total
     order_not_found: No pudimos encontrar su orden. Por favor inténtalo de nuevo
     order_processed_successfully: Su pedido se ha procesado correctamente
     order_state:
@@ -1248,7 +1251,7 @@ es-MX:
         instructions: Su orden ha sido enviada
         shipment_summary: Resumen de envío
         subject: Notificación de envío
-        thanks: Gracias por su negocio
+        thanks: Gracias por su compra
         track_information: 'Información de Rastreo: %{tracking}'
         track_link: 'Enlace para rastreo: %{url}'
         shipping_method: 'Método de envío:%{shipping_method}'
