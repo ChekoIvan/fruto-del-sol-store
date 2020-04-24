@@ -9,4 +9,11 @@ Rails.application.routes.draw do
   # the default of "spree".
   mount Spree::Core::Engine, at: '/'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  Spree::Core::Engine.add_routes do
+    post '/mercado_pago/checkout', to: "mercado_pago_gateway#checkout", as: :mercado_pago_checkout
+    get  '/mercado_pago/success', to: "mercado_pago_gateway#success", as: :mercado_pago_success
+    get  '/mercado_pago/failure', to: "mercado_pago_gateway#failure", as: :mercado_pago_failure
+    post '/mercado_pago/ipn', to: "mercado_pago#ipn", as: :mercado_pago_ipn
+  end
+  
 end
