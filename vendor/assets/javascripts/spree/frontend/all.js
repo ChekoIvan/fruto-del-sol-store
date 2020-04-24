@@ -10,3 +10,4 @@
 //= require spree/frontend
 //= require spree/frontend/spree_i18n
 //= require spree/frontend/spree_paypal_express
+//= require spree/frontend/spree_mercado_pago.js

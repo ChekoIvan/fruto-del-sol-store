@@ -682,7 +682,7 @@ es-MX:
     authorization_failure: Fallo de autorización
     available_on: Disponible en
     back: Atrás
-    back_end: Parte Intera
+    back_end: Sistema Backend
     back_to_store: Regresar a la tienda
     back_to_users_list: Regresar a la Lista de Usuarios
     backorderable: Disponible para apartado
@@ -812,7 +812,7 @@ es-MX:
     empty_cart: Vaciar carrito
     enable_mail_delivery: Habilitar envío por correo
     end: Fin
-    ending_in: Ending in
+    ending_in: Terminación
     environment: Entorno
     error: error
     errors:
@@ -864,7 +864,7 @@ es-MX:
     flat_rate_per_order: Cantidad fija (por pedido)
     flexible_rate: Cantidad variable
     free_shipping: Gastos de envío gratuitos
-    front_end: Sistema Interno
+    front_end: Sistema FrontEnd
     gateway: Pasarela
     gateway_config_unavailable: Pasarela no disponible por configuración
     gateway_error: Error en la pasarela
@@ -956,7 +956,7 @@ es-MX:
     name: Nombre
     name_or_sku: Nombre o código de producto
     new: Nuevo
-    new_adjustment: nuevo ajuste
+    new_adjustment: Nuevo ajuste
     new_customer: Nuevo cliente
     new_image: Nueva Imagen
     new_option_type: Nuevo tipo de opción
@@ -1016,7 +1016,7 @@ es-MX:
     or: o
     or_over_price: '%{price} o más'
     order: Pedido
-    order_adjustments: Order adjustments
+    order_adjustments: Ordenar ajustes
     order_details: Detalles del pedido
     order_email_resent: Email de pedido reenviado
     order_information: Información del pedido
@@ -1204,7 +1204,7 @@ es-MX:
     remove: Eliminar
     rename: Renombrar
     reports: Informes
-    resend: Volver a enviar
+    resend: RE
     reset_password: Reiniciar mi contraseña
     response_code: Código de respuesta
     resume: Reanudar
@@ -2052,3 +2052,6 @@ es-MX:
     previous: De & lsaquo;
     next: De & rsaquo;
     truncate: Y hellip;
+  mercado_pago:
+    make_payment: "Realizar pago en Mercado Pago"
+    authentication_error: "Hubo un error al realizar la autenticación con Mercado Pago"

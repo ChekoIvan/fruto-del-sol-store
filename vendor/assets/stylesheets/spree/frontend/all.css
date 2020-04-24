@@ -21,9 +21,10 @@
     display: flex;
     justify-content: center;
 }
-.logo img{
+.logo.header-spree-fluid-logo img{
     height: 95%;
     align-self: center;
+    max-height: 3em;    
 }
 @media(max-width:479px) {
     .logo img {
@@ -33,17 +34,17 @@
 .main-nav-bar.menu_main_nav > *{
     letter-spacing: 2px;
 }
-.top_panel_fixed .logo{
+/* .top_panel_fixed .logo{
     display: block !important
-}
+} */
 li.navbar a{
     text-decoration: none;
 }
-#quantity.quantity-select-value,
+/* #quantity.quantity-select-value,
 .scheme_default input.shopping-cart-item-quantity-input[type="number"]{
     border-top: solid black 1px;
     border-bottom: solid black 1px;
-}
+} */
 .scheme_default .shopping-cart-coupon-code input[type="text"]{
     border-top: solid black 1px;
     border-bottom: solid black 1px;
