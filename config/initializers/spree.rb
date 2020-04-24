@@ -30,5 +30,8 @@ Spree.dependencies do |dependencies|
   # dependencies.cart_add_item_service = 'MyNewAwesomeService'
 end
 
-
+# Spree::Auth::Config[:confirmable] = true
+# Spree::Auth::Config[:signout_after_password_change] = false
 Spree.user_class = "Spree::User"
+
+Rails.application.config.spree.payment_methods << Spree::Gateway::MercadoPagoGateway

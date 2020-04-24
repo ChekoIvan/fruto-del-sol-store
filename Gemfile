@@ -32,6 +32,7 @@ gem 'spree_gateway', '~> 3.7'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 gem 'spree_mail_settings', github: 'ChekoIvan/spree_mail_settings', branch: 'master'
+gem 'mercadopago-sdk'
 gem 'rack-cors'
 
 # Reduces boot times through caching; required in config/boot.rb
