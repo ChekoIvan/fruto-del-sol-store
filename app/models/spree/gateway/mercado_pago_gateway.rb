@@ -18,9 +18,13 @@ class Spree::Gateway::MercadoPagoGateway < Spree::Gateway
   def isSandbox
     env = preferred_server == 'sandbox' ?  "sandbox_init_point" : 'init_point'
   end
-#   def payment_source_class
-#     Spree::CreditCard
-#   end
+  def source_required?
+    false
+  end
+  # def payment_source_class
+  #   Spree::CreditCard
+  # end
+
 
   def auto_capture?
     true
