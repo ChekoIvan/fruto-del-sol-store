@@ -34,9 +34,9 @@
 .main-nav-bar.menu_main_nav > *{
     letter-spacing: 2px;
 }
-/* .top_panel_fixed .logo{
+.top_panel_fixed .logo{
     display: block !important
-} */
+} 
 li.navbar a{
     text-decoration: none;
 }
