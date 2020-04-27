@@ -163,7 +163,9 @@ Antes de iniciar con capistrano, debemos crear la base de datos para producción
 
 1. crear la carpeta donde se copiará el proyecto con capistrano
 1. crear las variables de entorno para rbenv
+   1. archivo .rbenv-vars
 1. Verificar que la conexión a la base de datos se realice correctamente con la cofiguración establecida al archivo enviroments/production.rb  del proyecto.
+   1. Además de los parámetros de conexión a la base (usuario, contraseña, nombre-bd), se necesita señalar el archivo del socket (si es mysql.)
 
 Ya se pueden seguir tal cual los pasos indicados en la siguiente entrada:
 

@@ -20,8 +20,9 @@
 /public/assets
 .byebug_history
 
-# Ignore master key for decrypting credentials and more.
+# Ignore master and production key for decrypting credentials and more.
 /config/master.key
+/config/credentials/production.key
 
 /public/packs
 /public/packs-test
@@ -30,4 +31,5 @@
 yarn-debug.log*
 .yarn-integrity
 
-/config/credentials/production.key
+
+.rbenv-vars

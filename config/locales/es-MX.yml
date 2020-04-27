@@ -440,8 +440,8 @@ es-MX:
         few: Movimiento de stock
         many: Movimientos de stock
       spree/stock_location:
-        one: la posición de inventario
-        other: Toda la posición de inventario
+        one: Ubicación de inventario
+        other: Todas las ubicaciones de inventario
         few: almacén
         many: almacenes
       spree/stock_transfer:
@@ -450,11 +450,11 @@ es-MX:
         few: Transferencia de mercancía
         many: Transferencia de mercancías
       spree/store_credit:
-        one: Centro comercial llegó con oro
-        other: Todo llegado con oro comercial
+        one: Crédito en tienda
+        other: Todos los créditos en tienda
       spree/store_credit_category:
-        one: Centro comercial llegó con la categoría de oro
-        other: Todo llegado con la categoría de oro comercial
+        one: Categoría de crédito en tienda
+        other: Todas las categorías de crédito en tienda
       spree/tracker:
         one: El seguidor de análisis web
         other: El seguidor de análisis web
@@ -639,7 +639,7 @@ es-MX:
         user_information: Información de usuario
         stores: Tiendas
         store_credits: Crédito en tienda
-        no_store_credit: Kim llegó sin centro comercial de usuario
+        no_store_credit: Crédito en tienda no disponible
         available_store_credit: 'Crédito de tienda disponible del usuario %{amount}'
       order:
         events:
@@ -1299,7 +1299,7 @@ es-MX:
     status: Estado
     stock_location: Ubicación de Inventario
     stock_location_info: Información sobre Ubicación de Inventario
-    stock_locations: Ubicación de Inventario
+    stock_locations: Ubicaciónes de Inventario
     stock_management: Manejo de Inventario
     stock_movements: Movimientos de Inventario
     stock_movements_for_stock_location: 'Movimientos de inventario para %{stock_location_name}'
@@ -1706,7 +1706,7 @@ es-MX:
     transaction_id: Identificador de Transacción
     unable_to_create_reimbursements: Incapaz de crear reembolso
     add_new_credit_card: Añadir una tarjeta de crédito
-    add_store_credit: 'Agregar Credito en tienda '
+    add_store_credit: 'Agregar Crédito en tienda '
     address: dirección
     addresses: direcciones
     address_action_popup:
@@ -1834,8 +1834,8 @@ es-MX:
         unable_to_delete: No se puede eliminar
         unable_to_fund: No puede ser fondeado.
         unable_to_update: No se puede actualizar
-    store_credits: Todo llegado con oro comercial
-    store_credit_categories: Todo llegado con la categoría de oro comercial
+    store_credits: Todos los créditos en tienda
+    store_credit_categories: Todas las categorías de crédito en tienda
     store_credit_payment_method:
       unable_to_void: 'No se ha podido anular: %{auth_code}'
       unable_to_credit: 'No se puede otorgar el crédito: %{auth_code}'
@@ -1845,8 +1845,8 @@ es-MX:
       currency_mismatch: La moneda no coincide con el orden
       insufficient_authorized_amount: Monto de crédito no autorizado
       unable_to_find_for_action: 'No puede encontrar para %{action}:%{auth_code}'
-      user_has_no_store_credits: Los usuarios no tienen ningún centro llegado con oro
-      select_one_store_credit: Uso comercial llegó a pagar la cantidad restante de oro
+      user_has_no_store_credits: Los usuarios no tienen ningún cŕedito en tienda
+      select_one_store_credit: Seleccionar un crédito de tienda
     store_not_set_as_default: '%{store} Tienda no se puede establecer como almacén predeterminado'
     taxon_missing_alt: categorías personalizadas subtítulos que faltan
     url: URL
