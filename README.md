@@ -93,6 +93,8 @@ El primer set de ajustes se realiza en los archivos del proyecto.
     config.admin_show_version = false
     config.currency = 'MXN'
 
+**Configurar spree_auth_devise**
+Por defecto, un usuario al registrarse en Spree, no necesita confirmar su correo electrónico. Para activar la confirmación se realizan los pasos indicados en su [repositorio de la gema](https://github.com/spree/spree_auth_devise#configuration). 
 
 **Iniciamos el server** (development)
     
@@ -119,9 +121,31 @@ Se configuran cosas como:
     * Es obligatorio tener mínimo una ubicación para poder tener stock de productos.
 * Preferencias Métodos de email, esta configuración sobreescribe cualquier configuración dada en los archivos application.rb o #{enviroment}.rb
     * Se establece la configuración del servidor SMTP a utilizar. 
+    _Para el caso de GMail, se debe activar en el panel de configuración de la cuenta y registrar como dispositivo de confianza._ El enlace al desbloqueo [https://accounts.google.com/DisplayUnlockCaptcha
+](https://accounts.google.com/DisplayUnlockCaptcha
+)
 
 
 ---
-En este punto, las configuraciones son las suficientes para poder empezar a agregar productos.
+**En este punto, las configuraciones son las suficientes para poder empezar a agregar productos.**
 
 El [manual de Spree](https://guides.spreecommerce.org/user/products/) ejemplifica este proceso.
+
+#### Preguntas de fucionalidad
+1. El manual de usuario de Spree está disponible desde su web: [https://guides.spreecommerce.org/user/](https://guides.spreecommerce.org/user/)
+1. El lenguaje par defecto de la tienda es inglés (en), Las traduccines de texto al español se tienen en el archivo /config/locales/es-MX.yml, para cualquier corrección o agregado de alguna traducción faltante se realizará en dicho archivo.
+
+---
+###To Do
+- [ ] Incrementar el set de datos iniciales, para incluir un mayor número de configuraciones.
+- [ ] Realizar pruebas con Stripe, desde un sitio con SSL
+- [ ] Agregar al manual de producción, la sección para configurar el SSL.
+- [ ] Realizar los cambios necesarios en los archivos de mercado pago para la incorporación de pagos en efectivo, (IPN). 
+- [ ] Realizar un diagrama de clases del procedimiento de checkout
+- [ ] Planificar la posibilidad de una pasarela de pago propia, así como su integración a Spree.
+- [ ] Empaquetar los archivos correspondientes a mercado pago en una gema.
+- [ ] Hacer pruebas del credito de tienda que trae incorporado Spree
+- [ ] Comprender el funcionamiento general de los features de Spree
+
+##[Notas para deploy](./Deployment.md)
+##[Notas para producción](./ProductionManual.md)
