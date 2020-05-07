@@ -144,7 +144,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
-    doorkeeper (5.3.1)
+    doorkeeper (5.3.3)
       railties (>= 5)
     erubi (1.9.0)
     execjs (2.7.0)
